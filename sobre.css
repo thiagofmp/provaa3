@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #f0f0f0;
+    background-color: #f0f0f0;
+    background-image: url('https://media.istockphoto.com/id/949118068/pt/foto/books.jpg?s=612x612&w=0&k=20&c=d_GPrF-HT87WHKyM8kbTlbYHmro4lh7odDgyaTD3xnk=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; /* Ajuste o padding-top conforme necessário para compensar a altura do menu */
+}
+
+#main-content p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+h2{
+    text-indent: 15px;
+}
+
+p {
+    text-indent: 25px; /* Valor negativo grande o suficiente para garantir que o texto seja empurrado para fora da tela */
+}
+
+#menuhorizontal {
+    background-color: rgba(51, 52, 139, 0.8);
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999; /* Z-index alto para garantir que o menu esteja sempre acima de outros elementos */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#menuhorizontal ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+}
+
+#menuhorizontal ul li {
+    margin: 0 10px;
+}
+
+#menuhorizontal ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+#menuhorizontal ul li a:hover {
+    background-color: #b91c1c;
+}

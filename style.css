@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.background {
+  position: relative;
+  background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/10628459-cena-de-desenho-de-paisagem-com-arvores-verdes-em-colinas-e-fundo-de-ceu-azul-de-verao-vetor.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.texto {
+  position: absolute;
+  top: 100px;
+  left: 25%;
+  right: 25%;
+  text-align: center;
+  color: black;
+  z-index: 1;
+}
+
+#menuhorizontal {
+  background-color: rgba(51, 52, 139, 0.8);
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#menuhorizontal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: flex;
+}
+
+#menuhorizontal ul li {
+  margin: 0 10px;
+}
+
+#menuhorizontal ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+#menuhorizontal ul li a:hover {
+  background-color: #b91c1c;
+}
